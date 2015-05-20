@@ -1,0 +1,25 @@
+{
+    "name": "private-libtorrent",
+    "version": "1.0.3",
+    "source": {
+        "http": "http://kostyshyn.org/files/libs/libtorrent_1_0_3.zip"
+    },
+    "ios": {
+        "vendored_frameworks": "libtorrent.framework"
+    },
+    "platforms": {
+        "ios": "8.0"
+    },
+    "dependency": [
+        "boost"
+    ],
+    "frameworks": [
+    ],
+    "libraries": [
+        "stdc++"
+    ],
+    "requires_arc": false,
+    "xcconfig": {
+        "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) BOOST_ASIO_SEPARATE_COMPILATION=1 WITH_SHIPPED_GEOIP_H=1"
+    }
+}

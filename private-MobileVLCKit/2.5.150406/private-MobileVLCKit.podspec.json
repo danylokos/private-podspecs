@@ -1,0 +1,39 @@
+{
+    "name": "private-MobileVLCKit",
+    "version": "2.5.150406",
+    "summary": "MobileVLCKit is an Objective-C wrapper for libvlc's external interface on iOS.",
+    "homepage": "https://wiki.videolan.org/VLCKit/",
+    "authors": [
+        "Pierre d'Herbemont",
+        {
+            "Felix Paul Kühne": "fkuehne@videolan.org"
+        }
+    ],
+    "source": {
+        "http": "http://nightlies.videolan.org/build/ios/MobileVLCKit-UniversalBinary-20150406-0541.zip"
+    },
+    "ios": {
+        "vendored_frameworks": "build/MobileVLCKit.framework"
+    },
+    "platforms": {
+        "ios": "5.1.1"
+    },
+    "frameworks": [
+        "QuartzCore",
+        "CoreText",
+        "AVFoundation",
+        "Security",
+        "CFNetwork",
+        "AudioToolbox",
+        "OpenGLES",
+        "CoreGraphics"
+    ],
+    "libraries": [
+        "stdc++",
+        "xml2",
+        "z",
+        "bz2",
+        "iconv"
+    ],
+    "requires_arc": false
+}

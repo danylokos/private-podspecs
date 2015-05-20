@@ -1,0 +1,16 @@
+{
+    "name": "private-openssl",
+    "version": "1.0.201",
+    "source": {
+        "http": "http://kostyshyn.org/files/libs/openssl-1_0_2a.zip"
+    },
+    "ios": {
+        "vendored_frameworks": "openssl.framework"
+    },
+    "platforms": {
+        "ios": "8.0"
+    },
+    "frameworks": [
+    ],
+    "requires_arc": false
+}
